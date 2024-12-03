@@ -1,0 +1,27 @@
+div#modal {
+  width: 500px;
+  border: 2px solid;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  border-radius: 20px;
+  background-color: yellowgreen;
+}
+div#modal .header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  font-weight: bold;
+  color: red;
+}
+div#modal p {
+  margin: 10px;
+}
+
+img {
+  height: 18px;
+}
+
+.hide {
+  display: none;
+}
